@@ -1,0 +1,179 @@
+
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Ballet';
+    src: url('Ballet.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F8FF;
+    color: #00356B;
+    margin: 0;
+}
+
+/* HEADER */
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+/* LITTLE LEMON TITLE */
+/* LITTLE LEMON TITLE */
+header h1 {
+    font-family: 'Ballet', cursive;
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #00356B;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* SUBTITLE */
+header p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+/* NAVIGATION */
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #00356B;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #007FFF;
+    color: white;
+}
+
+/* ACTIVE NAVIGATION */
+nav a.current {
+    background-color: #007FFF;
+    color: white;
+    border-bottom: 3px solid #00CCFF;
+}
+/* MAIN CONTENT */
+main {
+    max-width: 720px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* FOOD MENU CARDS */
+.dish {
+    background-color: #4682B4;
+    color: white;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* FOOD IMAGES */
+.dish img {
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* FOOD PRICE */
+.price {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #00356B;
+    color: white;
+    padding: 15px;
+}
+/* HEADING FONT */
+header h1,
+main h2,
+.dish h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* NAVIGATION FONT */
+nav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* BODY TEXT */
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+}
+/* AREA MENU */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 24px;
+}
+
+/* KARTU MAKANAN */
+.dish {
+    background-color: #4682B4;
+    border: 1px solid #007FFF;
+    border-radius: 14px;
+    padding: 24px;
+    margin: 0 auto 28px;
+    text-align: left;
+}
+
+/* GAMBAR MAKANAN */
+.dish img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+/* NAMA DAN DESKRIPSI */
+.dish h3 {
+    margin: 0 0 12px;
+    color: white;
+}
+
+.dish p {
+    color: white;
+    line-height: 1.7;
+}
+
+.dish .price {
+    color: #00CCFF;
+    font-weight: bold;
+    font-size: 20px;
+}

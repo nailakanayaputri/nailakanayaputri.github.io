@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Table - Little Lemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Little Lemon</h1>
+        <p>Middle Eastern Food in the Main District</p>
+    </header>
+
+    <
+<nav>
+    <a href="index.html">Menu</a>
+    <a href="location.html">Location</a>
+    <a href="book.html" class="current">Book a Table</a>
+</nav>
+
+    <main>
+        <h2>Book a Table</h2>
+        <p>Reserve your table at Little Lemon!</p>
+
+        <form>
+            <p>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="party">Number of Guests:</label><br>
+                <input type="number" id="party" name="party"
+                       min="1" max="12" required>
+            </p>
+
+            <p>
+                <label for="date">Reservation Date:</label><br>
+                <input type="date" id="date" name="date" required>
+            </p>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Little Lemon Restaurant | Open Daily</p>
+    </footer>
+
+</body>
+</html>
